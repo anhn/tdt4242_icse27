@@ -1,0 +1,100 @@
+predictor_type,predictor,outcome,n_with/without,medians_or_counts,effect,p,q_fdr
+Recoded strategy,Specification Clarification,student smells,14/7,9.50 vs 15.00,-0.34693877551020413,0.21472275301089816,0.9057916452615863
+Recoded strategy,Specification Clarification,student smells / KLOC,11/6,5.59 vs 7.89,-0.4242424242424242,0.1801874595992243,0.8994710436415756
+Recoded strategy,Specification Clarification,duplication %,11/6,3.75 vs 2.27,0.39393939393939403,0.2160633484162896,0.9057916452615863
+Recoded strategy,Specification Clarification,long functions / KLOC,11/6,2.48 vs 1.64,0.18181818181818188,0.5908209437621202,1.0
+Recoded strategy,Specification Clarification,complex functions / KLOC,11/6,0.96 vs 0.36,0.28787878787878785,0.35518444274118144,0.9605031944393684
+Recoded strategy,Specification Clarification,files > 300 lines,11/6,1.00 vs 0.00,0.25757575757575757,0.3829516448773116,0.9605031944393684
+Recoded strategy,Specification Clarification,test / code ratio,11/6,0.44 vs 0.46,0.10606060606060597,0.7628836164359448,1.0
+Recoded strategy,Scope Decomposition,student smells,8/13,10.50 vs 10.00,0.05769230769230771,0.8552066719797724,1.0
+Recoded strategy,Scope Decomposition,student smells / KLOC,7/10,8.15 vs 5.71,0.48571428571428577,0.10880296174413821,0.8994710436415756
+Recoded strategy,Scope Decomposition,duplication %,7/10,2.48 vs 3.27,0.17142857142857149,0.6008844097079391,1.0
+Recoded strategy,Scope Decomposition,long functions / KLOC,7/10,2.21 vs 2.59,-0.3142857142857143,0.31478815302344715,0.9605031944393684
+Recoded strategy,Scope Decomposition,complex functions / KLOC,7/10,0.00 vs 0.98,-0.4285714285714286,0.1480608388591485,0.8994710436415756
+Recoded strategy,Scope Decomposition,files > 300 lines,7/10,0.00 vs 1.00,-0.7,0.011036881821340659,0.6108597285067873
+Recoded strategy,Scope Decomposition,test / code ratio,7/10,0.41 vs 0.48,0.014285714285714235,1.0,1.0
+Recoded strategy,Architecture-First,student smells,18/3,10.00 vs 15.00,-0.12962962962962965,0.7612127585119786,1.0
+Recoded strategy,Structured Output,student smells,17/4,10.00 vs 15.50,-0.13235294117647056,0.718044526607281,1.0
+Recoded strategy,Structured Output,student smells / KLOC,14/3,7.43 vs 4.77,0.6190476190476191,0.12058823529411763,0.8994710436415756
+Recoded strategy,Structured Output,duplication %,14/3,2.63 vs 6.27,-0.04761904761904767,0.9529411764705883,1.0
+Recoded strategy,Structured Output,long functions / KLOC,14/3,2.36 vs 2.21,0.0,1.0,1.0
+Recoded strategy,Structured Output,complex functions / KLOC,14/3,0.73 vs 1.01,-0.0714285714285714,0.8975315280018861,1.0
+Recoded strategy,Structured Output,files > 300 lines,14/3,0.50 vs 1.00,-0.23809523809523814,0.5384185561239034,1.0
+Recoded strategy,Structured Output,test / code ratio,14/3,0.48 vs 0.40,0.26190476190476186,0.5284805719402101,1.0
+Recoded strategy,File-by-File Increment,student smells,8/13,12.00 vs 9.00,0.1826923076923077,0.511229052483875,1.0
+Recoded strategy,File-by-File Increment,student smells / KLOC,6/11,6.98 vs 5.83,0.06060606060606055,0.883645765998707,1.0
+Recoded strategy,File-by-File Increment,duplication %,6/11,7.11 vs 2.33,0.5757575757575757,0.061570782159017456,0.8994710436415756
+Recoded strategy,File-by-File Increment,long functions / KLOC,6/11,1.94 vs 2.23,0.0,1.0,1.0
+Recoded strategy,File-by-File Increment,complex functions / KLOC,6/11,0.84 vs 0.76,0.0,1.0,1.0
+Recoded strategy,File-by-File Increment,files > 300 lines,6/11,1.00 vs 0.00,0.16666666666666674,0.5855512005032373,1.0
+Recoded strategy,File-by-File Increment,test / code ratio,6/11,0.23 vs 0.52,-0.33333333333333337,0.2909970330190689,0.9605031944393684
+Recoded strategy,Phase-Based Development,student smells,6/15,13.00 vs 10.00,0.16666666666666674,0.5828367052672301,1.0
+Recoded strategy,Phase-Based Development,student smells / KLOC,6/11,6.31 vs 6.73,0.09090909090909083,0.807530704589528,1.0
+Recoded strategy,Phase-Based Development,duplication %,6/11,4.38 vs 2.79,0.0,1.0,1.0
+Recoded strategy,Phase-Based Development,long functions / KLOC,6/11,2.51 vs 2.23,0.21212121212121215,0.5248868778280543,1.0
+Recoded strategy,Phase-Based Development,complex functions / KLOC,6/11,1.10 vs 0.56,0.40909090909090917,0.18171132194779305,0.8994710436415756
+Recoded strategy,Phase-Based Development,files > 300 lines,6/11,0.50 vs 1.00,-0.18181818181818177,0.5486237985432201,1.0
+Recoded strategy,Phase-Based Development,test / code ratio,6/11,0.40 vs 0.52,-0.10606060606060608,0.7628836164359448,1.0
+Recoded strategy,Feature-Stack Accumulation,student smells,6/15,9.50 vs 14.00,-0.25555555555555554,0.3880820987633812,0.9605031944393684
+Recoded strategy,Feature-Stack Accumulation,student smells / KLOC,5/12,8.14 vs 6.28,0.1333333333333333,0.7213962508080154,1.0
+Recoded strategy,Feature-Stack Accumulation,duplication %,5/12,6.27 vs 2.50,0.46666666666666656,0.15998707175177765,0.8994710436415756
+Recoded strategy,Feature-Stack Accumulation,long functions / KLOC,5/12,2.21 vs 2.36,0.0,1.0,1.0
+Recoded strategy,Feature-Stack Accumulation,complex functions / KLOC,5/12,0.00 vs 0.86,-0.31666666666666665,0.33219224132332204,0.9605031944393684
+Recoded strategy,Feature-Stack Accumulation,files > 300 lines,5/12,0.00 vs 1.00,-0.5166666666666666,0.08621181755279334,0.8994710436415756
+Recoded strategy,Feature-Stack Accumulation,test / code ratio,5/12,0.41 vs 0.48,0.06666666666666665,0.8742906499149945,1.0
+Recoded strategy,Exploratory Development,student smells,4/17,23.00 vs 9.00,0.6323529411764706,0.058008232198965726,0.8994710436415756
+Recoded strategy,Exploratory Development,student smells / KLOC,4/13,9.64 vs 6.73,0.1923076923076923,0.6235294117647058,1.0
+Recoded strategy,Exploratory Development,duplication %,4/13,2.34 vs 3.75,-0.1923076923076923,0.6235294117647058,1.0
+Recoded strategy,Exploratory Development,long functions / KLOC,4/13,2.11 vs 2.48,-0.11538461538461542,0.7848739495798319,1.0
+Recoded strategy,Exploratory Development,complex functions / KLOC,4/13,0.98 vs 0.71,0.17307692307692313,0.6434016097885515,1.0
+Recoded strategy,Exploratory Development,files > 300 lines,4/13,0.50 vs 1.00,0.019230769230769162,1.0,1.0
+Recoded strategy,Exploratory Development,test / code ratio,4/13,0.36 vs 0.52,-0.32692307692307687,0.36473624931702175,0.9605031944393684
+Recoded strategy,Chain-of-Thought Debugging,student smells,4/17,35.00 vs 9.00,0.8235294117647058,0.013050798281775296,0.6108597285067873
+Recoded strategy,Chain-of-Thought Debugging,student smells / KLOC,4/13,6.11 vs 6.73,0.07692307692307687,0.8705882352941177,1.0
+Recoded strategy,Chain-of-Thought Debugging,duplication %,4/13,3.42 vs 2.79,-0.038461538461538436,0.9563025210084034,1.0
+Recoded strategy,Chain-of-Thought Debugging,long functions / KLOC,4/13,2.11 vs 2.48,-0.2692307692307693,0.47731092436974787,1.0
+Recoded strategy,Chain-of-Thought Debugging,complex functions / KLOC,4/13,0.98 vs 0.56,0.26923076923076916,0.4518763377533047,1.0
+Recoded strategy,Chain-of-Thought Debugging,files > 300 lines,4/13,1.50 vs 0.00,0.46153846153846145,0.1576683144068486,0.8994710436415756
+Recoded strategy,Chain-of-Thought Debugging,test / code ratio,4/13,0.19 vs 0.52,-0.5192307692307692,0.14078800473351466,0.8994710436415756
+Recoded strategy,Diagnostic and Debugging,student smells,11/10,19.00 vs 9.00,0.5636363636363637,0.03041226294389592,0.752703507861424
+Recoded strategy,Diagnostic and Debugging,student smells / KLOC,10/7,7.68 vs 5.83,0.2571428571428571,0.41731797614150556,0.9832376927448061
+Recoded strategy,Diagnostic and Debugging,duplication %,10/7,5.32 vs 2.33,0.37142857142857144,0.2295351707116413,0.9057916452615863
+Recoded strategy,Diagnostic and Debugging,long functions / KLOC,10/7,2.11 vs 2.96,-0.6857142857142857,0.01851090086384204,0.6108597285067873
+Recoded strategy,Diagnostic and Debugging,complex functions / KLOC,10/7,0.73 vs 0.96,-0.12857142857142856,0.6898850749488,1.0
+Recoded strategy,Diagnostic and Debugging,files > 300 lines,10/7,0.00 vs 1.00,-0.22857142857142854,0.4270628362426936,0.9832376927448061
+Recoded strategy,Diagnostic and Debugging,test / code ratio,10/7,0.39 vs 0.52,-0.1428571428571429,0.660354071143072,1.0
+Recoded strategy,Test-Driven Prompt,student smells,7/14,10.00 vs 12.00,-0.030612244897959218,0.9400612099592315,1.0
+Recoded strategy,Test-Driven Prompt,student smells / KLOC,6/11,7.68 vs 5.83,0.1515151515151516,0.6604718810601163,1.0
+Recoded strategy,Test-Driven Prompt,duplication %,6/11,5.32 vs 2.21,0.48484848484848486,0.12152553329023917,0.8994710436415756
+Recoded strategy,Test-Driven Prompt,long functions / KLOC,6/11,2.21 vs 2.48,-0.18181818181818177,0.5908209437621202,1.0
+Recoded strategy,Test-Driven Prompt,complex functions / KLOC,6/11,0.36 vs 0.96,-0.31818181818181823,0.30427401455247827,0.9605031944393684
+Recoded strategy,Test-Driven Prompt,files > 300 lines,6/11,0.00 vs 1.00,-0.25757575757575757,0.3829516448773116,0.9605031944393684
+Recoded strategy,Test-Driven Prompt,test / code ratio,6/11,0.40 vs 0.52,-0.12121212121212122,0.7248540304303692,1.0
+Recoded strategy,Recursive Critique,student smells,15/6,9.00 vs 17.50,-0.3555555555555555,0.22391355720472783,0.9057916452615863
+Recoded strategy,Recursive Critique,student smells / KLOC,12/5,5.71 vs 8.14,-0.3666666666666667,0.2786037491919845,0.9605031944393684
+Recoded strategy,Recursive Critique,duplication %,12/5,2.41 vs 10.10,-0.6,0.0636716224951519,0.8994710436415756
+Recoded strategy,Recursive Critique,long functions / KLOC,12/5,2.59 vs 0.83,0.5,0.12960568842921785,0.8994710436415756
+Recoded strategy,Recursive Critique,complex functions / KLOC,12/5,0.95 vs 0.71,0.08333333333333326,0.8293848504805379,1.0
+Recoded strategy,Recursive Critique,files > 300 lines,12/5,1.00 vs 0.00,0.1333333333333333,0.688908644395201,1.0
+Recoded strategy,Recursive Critique,test / code ratio,12/5,0.48 vs 0.41,-0.1333333333333333,0.712009465134765,1.0
+Recoded strategy,Patch-Oriented Refinement,student smells,4/17,10.00 vs 10.00,-0.07352941176470584,0.8567312185524907,1.0
+Recoded strategy,Patch-Oriented Refinement,student smells / KLOC,3/14,8.14 vs 5.71,0.38095238095238093,0.36176470588235293,0.9605031944393684
+Recoded strategy,Patch-Oriented Refinement,duplication %,3/14,4.37 vs 2.63,0.38095238095238093,0.36176470588235293,0.9605031944393684
+Recoded strategy,Patch-Oriented Refinement,long functions / KLOC,3/14,0.83 vs 2.36,-0.4285714285714286,0.3,0.9605031944393684
+Recoded strategy,Patch-Oriented Refinement,complex functions / KLOC,3/14,0.00 vs 0.95,-0.5714285714285714,0.13861378010663494,0.8994710436415756
+Recoded strategy,Patch-Oriented Refinement,files > 300 lines,3/14,0.00 vs 1.00,-0.09523809523809523,0.8375184253830721,1.0
+Recoded strategy,Patch-Oriented Refinement,test / code ratio,3/14,0.52 vs 0.42,0.1428571428571428,0.7526374653038486,1.0
+Recoded strategy,Prompt Chaining,student smells,10/11,10.50 vs 10.00,0.1272727272727272,0.6445654009689155,1.0
+Recoded strategy,Prompt Chaining,student smells / KLOC,9/8,4.98 vs 6.98,-0.16666666666666663,0.6058412176059235,1.0
+Recoded strategy,Prompt Chaining,duplication %,9/8,2.48 vs 3.27,-0.08333333333333337,0.8148087206910737,1.0
+Recoded strategy,Prompt Chaining,long functions / KLOC,9/8,2.76 vs 1.53,0.41666666666666674,0.16717400246812014,0.8994710436415756
+Recoded strategy,Prompt Chaining,complex functions / KLOC,9/8,1.01 vs 0.63,0.3472222222222223,0.23788467451314388,0.9057916452615863
+Recoded strategy,Prompt Chaining,files > 300 lines,9/8,1.00 vs 0.50,-0.02777777777777779,0.9583630033572358,1.0
+Recoded strategy,Prompt Chaining,test / code ratio,9/8,0.41 vs 0.48,-0.13888888888888884,0.6648126209477461,1.0
+Recoded strategy,Recall Prompt,student smells,9/12,11.00 vs 9.50,0.0185185185185186,0.971430976280496,1.0
+Recoded strategy,Recall Prompt,student smells / KLOC,7/10,7.23 vs 5.71,0.11428571428571432,0.7396133278486219,1.0
+Recoded strategy,Recall Prompt,duplication %,7/10,4.37 vs 2.34,0.37142857142857144,0.2295351707116413,0.9057916452615863
+Recoded strategy,Recall Prompt,long functions / KLOC,7/10,2.21 vs 2.36,-0.08571428571428574,0.8125257095845331,1.0
+Recoded strategy,Recall Prompt,complex functions / KLOC,7/10,0.71 vs 0.98,-0.27142857142857146,0.3693056094084052,0.9605031944393684
+Recoded strategy,Recall Prompt,files > 300 lines,7/10,0.00 vs 1.00,-0.17142857142857137,0.5602745817109889,1.0
+Recoded strategy,Recall Prompt,test / code ratio,7/10,0.52 vs 0.41,0.2571428571428571,0.40652532134524766,0.9816099222726712

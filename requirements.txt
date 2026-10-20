@@ -1,0 +1,7 @@
+numpy>=1.26
+scipy>=1.11
+# static analysis (code/rq3, only needed with the repositories)
+lizard==1.24.1
+ruff==0.16.8
+# interview metrics (code/rq1/analyze_interview_pair.py, only needed with the transcripts)
+sentence-transformers>=2.7

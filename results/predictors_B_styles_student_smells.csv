@@ -1,0 +1,56 @@
+predictor_type,predictor,outcome,n_with/without,medians_or_counts,effect,p,q_fdr
+Prompt style,Chain-of-Thought (CoT),total smells,14/7,10.50 vs 9.00,0.13265306122448983,0.6518759831566385,1.0
+Prompt style,Chain-of-Thought (CoT),distinct smell types,14/7,7.50 vs 7.00,0.09183673469387754,0.7625989608171927,1.0
+Prompt style,Chain-of-Thought (CoT),reports Duplicate Code,14/7,14/14 vs 6/7,inf,0.3333333333333333,1.0
+Prompt style,Chain-of-Thought (CoT),reports God Component,14/7,12/14 vs 6/7,1.0,1.0,1.0
+Prompt style,Chain-of-Thought (CoT),reports Dead Code,14/7,9/14 vs 4/7,1.35,1.0,1.0
+Prompt style,Chain-of-Thought (CoT),reports Long Method,14/7,9/14 vs 4/7,1.35,1.0,1.0
+Prompt style,Chain-of-Thought (CoT),reports Magic Strings,14/7,8/14 vs 4/7,1.0,1.0,1.0
+Prompt style,Chain-of-Thought (CoT),reports Error Handling Smell,14/7,9/14 vs 3/7,2.4,0.3972136222910217,1.0
+Prompt style,Chain-of-Thought (CoT),reports Primitive Obsession,14/7,8/14 vs 4/7,1.0,1.0,1.0
+Prompt style,Chain-of-Thought (CoT),reports Performance Smell,14/7,8/14 vs 3/7,1.7777777777777777,0.6594427244582045,1.0
+Prompt style,Chain-of-Thought (CoT),reports Divergent Change,14/7,6/14 vs 4/7,0.5625,0.6594427244582044,1.0
+Prompt style,structured output,total smells,17/4,10.00 vs 12.00,0.0,1.0,1.0
+Prompt style,structured output,distinct smell types,17/4,7.00 vs 7.00,0.16176470588235303,0.65034026141443,1.0
+Prompt style,structured output,reports Duplicate Code,17/4,17/17 vs 3/4,inf,0.19047619047619047,1.0
+Prompt style,structured output,reports God Component,17/4,15/17 vs 3/4,2.5,0.48872180451127817,1.0
+Prompt style,structured output,reports Dead Code,17/4,10/17 vs 3/4,0.47619047619047616,1.0,1.0
+Prompt style,structured output,reports Long Method,17/4,11/17 vs 2/4,1.8333333333333333,0.6177109440267334,1.0
+Prompt style,structured output,reports Magic Strings,17/4,10/17 vs 2/4,1.4285714285714286,1.0,1.0
+Prompt style,structured output,reports Error Handling Smell,17/4,10/17 vs 2/4,1.4285714285714286,1.0,1.0
+Prompt style,structured output,reports Primitive Obsession,17/4,10/17 vs 2/4,1.4285714285714286,1.0,1.0
+Prompt style,structured output,reports Performance Smell,17/4,8/17 vs 3/4,0.2962962962962963,0.5864661654135339,1.0
+Prompt style,structured output,reports Divergent Change,17/4,9/17 vs 1/4,3.375,0.5864661654135339,1.0
+Prompt style,Prompt chaining,total smells,11/10,10.00 vs 13.00,-0.17272727272727273,0.5229805118498979,1.0
+Prompt style,Prompt chaining,distinct smell types,11/10,7.00 vs 8.50,-0.15454545454545454,0.5685183852150679,1.0
+Prompt style,Prompt chaining,reports Duplicate Code,11/10,11/11 vs 9/10,inf,0.47619047619047616,1.0
+Prompt style,Prompt chaining,reports God Component,11/10,9/11 vs 9/10,0.5,1.0,1.0
+Prompt style,Prompt chaining,reports Dead Code,11/10,6/11 vs 7/10,0.5142857142857142,0.6594427244582044,1.0
+Prompt style,Prompt chaining,reports Long Method,11/10,7/11 vs 6/10,1.1666666666666667,1.0,1.0
+Prompt style,Prompt chaining,reports Magic Strings,11/10,7/11 vs 5/10,1.75,0.6699214098594903,1.0
+Prompt style,Prompt chaining,reports Error Handling Smell,11/10,6/11 vs 6/10,0.8,1.0,1.0
+Prompt style,Prompt chaining,reports Primitive Obsession,11/10,6/11 vs 6/10,0.8,1.0,1.0
+Prompt style,Prompt chaining,reports Performance Smell,11/10,3/11 vs 8/10,0.09375,0.02997312285237982,1.0
+Prompt style,Prompt chaining,reports Divergent Change,11/10,6/11 vs 4/10,1.8,0.6699214098594904,1.0
+Prompt style,Validation prompt,total smells,9/12,10.00 vs 12.50,-0.11111111111111116,0.6936181223267164,1.0
+Prompt style,Validation prompt,distinct smell types,9/12,7.00 vs 8.00,-0.25,0.349699519249945,1.0
+Prompt style,Validation prompt,reports Duplicate Code,9/12,8/9 vs 12/12,0.0,0.42857142857142855,1.0
+Prompt style,Validation prompt,reports God Component,9/12,6/9 vs 12/12,0.0,0.06315789473684211,1.0
+Prompt style,Validation prompt,reports Dead Code,9/12,5/9 vs 8/12,0.625,0.6730650154798761,1.0
+Prompt style,Validation prompt,reports Long Method,9/12,6/9 vs 7/12,1.4285714285714286,1.0,1.0
+Prompt style,Validation prompt,reports Magic Strings,9/12,5/9 vs 7/12,0.8928571428571429,1.0,1.0
+Prompt style,Validation prompt,reports Error Handling Smell,9/12,5/9 vs 7/12,0.8928571428571429,1.0,1.0
+Prompt style,Validation prompt,reports Primitive Obsession,9/12,4/9 vs 8/12,0.4,0.39642772088592515,1.0
+Prompt style,Validation prompt,reports Performance Smell,9/12,4/9 vs 7/12,0.5714285714285714,0.6699214098594903,1.0
+Prompt style,Validation prompt,reports Divergent Change,9/12,3/9 vs 7/12,0.35714285714285715,0.3869969040247678,1.0
+Prompt style,Constraint driven,total smells,14/7,9.50 vs 16.00,-0.40816326530612246,0.14257689007996566,1.0
+Prompt style,Constraint driven,distinct smell types,14/7,7.00 vs 8.00,-0.11224489795918369,0.705737368109383,1.0
+Prompt style,Constraint driven,reports Duplicate Code,14/7,14/14 vs 6/7,inf,0.3333333333333333,1.0
+Prompt style,Constraint driven,reports God Component,14/7,12/14 vs 6/7,1.0,1.0,1.0
+Prompt style,Constraint driven,reports Dead Code,14/7,9/14 vs 4/7,1.35,1.0,1.0
+Prompt style,Constraint driven,reports Long Method,14/7,9/14 vs 4/7,1.35,1.0,1.0
+Prompt style,Constraint driven,reports Magic Strings,14/7,8/14 vs 4/7,1.0,1.0,1.0
+Prompt style,Constraint driven,reports Error Handling Smell,14/7,9/14 vs 3/7,2.4,0.3972136222910217,1.0
+Prompt style,Constraint driven,reports Primitive Obsession,14/7,8/14 vs 4/7,1.0,1.0,1.0
+Prompt style,Constraint driven,reports Performance Smell,14/7,7/14 vs 4/7,0.75,1.0,1.0
+Prompt style,Constraint driven,reports Divergent Change,14/7,6/14 vs 4/7,0.5625,0.6594427244582044,1.0

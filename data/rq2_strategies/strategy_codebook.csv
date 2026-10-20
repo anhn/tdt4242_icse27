@@ -1,0 +1,25 @@
+id,strategy,type
+1,Requirement-Driven,generation
+2,Constraint-Driven,generation
+3,Specification Clarification,other
+4,Scope Decomposition,generation
+5,Architecture-First,generation
+6,Structured Output,generation
+7,File-by-File Increment,generation
+8,Phase-Based Development,generation
+9,Feature-Stack Accumulation,generation
+10,Copy-Extend Generation,other
+11,Exploratory Development,other
+12,Chain-of-Thought Debugging,other
+13,Diagnostic and Debugging,other
+14,Test-Driven Prompt,consolidation
+15,Regression Enforcement,consolidation
+16,Integration Inspection,other
+17,Backward-Compatibility,consolidation
+18,Recursive Critique,consolidation
+19,Dependency Analysis,consolidation
+20,Patch-Oriented Refinement,consolidation
+21,Context Reconstruction,consolidation
+22,Prompt Chaining,other
+23,Recall Prompt,other
+24,Role-Based Persona,other

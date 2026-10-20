@@ -1,0 +1,25 @@
+id,strategy,type,groups_using,of_groups
+1,Requirement-Driven,generation,21,22
+2,Constraint-Driven,generation,21,22
+3,Specification Clarification,other,14,22
+4,Scope Decomposition,generation,8,22
+5,Architecture-First,generation,19,22
+6,Structured Output,generation,18,22
+7,File-by-File Increment,generation,8,22
+8,Phase-Based Development,generation,7,22
+9,Feature-Stack Accumulation,generation,6,22
+10,Copy-Extend Generation,other,1,22
+11,Exploratory Development,other,4,22
+12,Chain-of-Thought Debugging,other,4,22
+13,Diagnostic and Debugging,other,11,22
+14,Test-Driven Prompt,consolidation,7,22
+15,Regression Enforcement,consolidation,2,22
+16,Integration Inspection,other,1,22
+17,Backward-Compatibility,consolidation,0,22
+18,Recursive Critique,consolidation,16,22
+19,Dependency Analysis,consolidation,1,22
+20,Patch-Oriented Refinement,consolidation,4,22
+21,Context Reconstruction,consolidation,0,22
+22,Prompt Chaining,other,11,22
+23,Recall Prompt,other,9,22
+24,Role-Based Persona,other,21,22

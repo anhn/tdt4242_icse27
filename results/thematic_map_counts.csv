@@ -1,0 +1,26 @@
+activity,valence,theme,code,reports,of_reports
+Requirements,+,Broad domain knowledge,R+2,13,20
+Requirements,+,"Fast, clear answers",R+1,12,20
+Requirements,-,No real stakeholder view,R-2,14,20
+Requirements,-,"Agreeable, non-proactive",R-4,10,20
+Requirements,-,Weakens elicitation,R-1,8,20
+Requirements,-,Inconsistent answers,R-3,3,20
+Testing,+,Diagnosing errors and smells,T+1,9,20
+Testing,+,Implementing fixes,T+3,7,20
+Testing,+,Generating tests quickly,X_test_generation,4,20
+Testing,+,Learning through testing,T+2,3,20
+Testing,-,Humans carry verification,T-3,11,20
+Testing,-,Failed or false fixes,X_failed_fixes,4,20
+Testing,-,Monolithic code hard to test,T-2,3,20
+Design & implementation,+,"Working code, few fixes",D+1,17,20
+Design & implementation,+,Productivity and speed,D+4,17,20
+Design & implementation,+,Learning web development,D+2,11,20
+Design & implementation,+,Structure and stack advice,D+3,10,20
+Design & implementation,+,Confidence in delivering,D+5,5,20
+Design & implementation,-,Defects and code smells,D-1,20,20
+Design & implementation,-,Human revision still needed,D-3,15,20
+Design & implementation,-,Reduced ownership,D-2,14,20
+Design & implementation,-,Works but poorly structured,D-4,9,20
+Design & implementation,-,Outdated library knowledge,X_outdated_libraries,5,20
+Design & implementation,-,Over-engineering,X_over_engineering,5,20
+Cross-cutting,,Role shifts from writing code to reviewing and orchestrating AI,X_role_shift,13,20

@@ -1,0 +1,206 @@
+group,smell_label,occurrences
+25,Hard-coded values,1.0
+25,Magic numbers,1.0
+25,In-code secrets,1.0
+25,Long methods,1.0
+25,Fallacious Comment,1.0
+25,Duplicate code,2.0
+15,God Component / Mixed Responsibilities,2.0
+15,Duplicate Code,1.0
+15,Magic Numbers / Hard-coded Rules,1.0
+15,Inconsistent Validation (Divergent Change),1.0
+15,Data Persistence Issue (Race Condition → Design smell),1.0
+15,Primitive / Poor Design (Client-controlled timestamp),1.0
+24,Dead Code,1.0
+24,Dispensables (Unused module),1.0
+24,Primitive Obsession,1.0
+24,Duplicate Code,1.0
+24,Data Clumps / Repeated Patterns,1.0
+24,Inconsistent API Contract,1.0
+24,Inconsistent Error Handling,1.0
+24,Performance Smell (N+1 Query),1.0
+24,Hard-coded Configuration,1.0
+24,Overly Generic Typing,1.0
+7,God Component / Mixed Responsibilities,2.0
+7,Duplicate Code,2.0
+7,Hard-coded Values / Magic Numbers,1.0
+7,Long methods,1.0
+7,Data Clumps / Repeated Structures,1.0
+7,Inconsistent Logic / Divergent Change,1.0
+7,Primitive Obsession,1.0
+17,God Component / Mixed Responsibilities,2.0
+17,Duplicate Code,1.0
+17,Hard-coded Values / Magic Numbers,1.0
+17,Long methods,1.0
+17,Data Clumps / Repeated Patterns,1.0
+17,Inconsistent Validation / Divergent Change,1.0
+17,Primitive Obsession,1.0
+13,1. Backend – API Endpoints,
+13,Duplicate Code,8.0
+13,God Class / Mixed Concerns,7.0
+13,Long Method,1.0
+13,Magic Strings / Hard-coded Values,1.0
+13,Primitive Obsession,1.0
+13,Data Clumps / Poor Encapsulation,1.0
+13,Inconsistent Logic (Divergent Change),2.0
+13,Improper Layering / Separation of Concerns Violation,1.0
+13,Weak Typing / Type Coercion Smell,1.0
+13,2. Frontend – React Components,
+13,Data Clumps / Prop Drilling,8.0
+13,Duplicate Code,4.0
+13,God Component / Large Component,1.0
+13,Mixed Concerns (Logic in UI),3.0
+13,Long Method / Complex Callback,2.0
+13,Dead Code,1.0
+13,Inconsistent Logic (Divergent Change),3.0
+13,Improper State Management,3.0
+13,Performance Smell,4.0
+13,Poor Abstraction / Missing Extraction,3.0
+13,Primitive Obsession (Typing),2.0
+13,Temporal Coupling,2.0
+2,Large component / mixed responsibilities,1.0
+2,Large backend controller,1.0
+2,Duplicate code in page layout structure,1.0
+2,Dead or unreachable code,1.0
+2,Incomplete error handling in user-facing pages,1.0
+2,Duplicated constants,2.0
+2,Shotgun surgery,3.0
+5,God Class / Large Module (Mixed Responsibilities),2.0
+5,Long Method,1.0
+5,Long Parameter List,1.0
+5,Duplicate Code (DRY violation),2.0
+5,Shotgun Surgery (Tight Coupling),1.0
+5,Dead Code,1.0
+5,Data Access Layer Violation (Improper Layering),1.0
+5,Inconsistent Logic / Divergent Change,2.0
+5,Performance Smell (N+1 + unnecessary requests),2.0
+5,Poor Exception Handling,1.0
+5,Primitive Obsession / Poor Data Modeling,1.0
+6,God Class / Mixed Responsibilities,2.0
+6,Long Method,1.0
+6,Duplicate Code (DRY violation),2.0
+6,Shotgun Surgery (Tight Coupling),2.0
+6,Dead Code,2.0
+6,Excessive Comments,1.0
+6,Speculative Generality,1.0
+6,Inconsistent Logic (Divergent Change),2.0
+6,Magic Strings / Hard-coded Values,1.0
+14,God Class / Mixed Responsibilities,1.0
+14,Long Method,1.0
+14,Duplicate Code,2.0
+14,Magic Strings / Numbers,1.0
+14,Poor Exception Handling,1.0
+14,Performance Smell (N+1 Query),1.0
+14,Security Design Smell,1.0
+18,God Class / Large Component,1.0
+18,Long Method / Long Function,1.0
+18,Duplicate Code (DRY violation),3.0
+18,Dead Code,1.0
+18,Primitive Obsession / Magic Values,1.0
+18,Scattered Logic (Shotgun Surgery),1.0
+18,Poor Exception Handling (Duplicate handling),1.0
+8,Large Component / Mixed Responsibilities,8.0
+8,Long Method / Complex Function,5.0
+8,Duplicated Code,7.0
+8,Dead Code,4.0
+8,Primitive Obsession / Magic Values,3.0
+8,Error Handling Issues,6.0
+8,"Performance Smells (N+1, sequential)",4.0
+8,Security Smells,6.0
+8,React Anti-patterns,4.0
+8,Typing Issues,4.0
+12,Duplication,3.0
+12,Complexity (component/controller),2.0
+12,Error handling,2.0
+12,Performance,2.0
+12,Security,2.0
+12,"UI, state, typing, structure...",5.0
+23,Complexity / Mixed Responsibilities (God Component / Function),2.0
+23,"Duplication / Fragmentation (Logic, Auth, Source of Truth)",1.0
+23,Domain Modeling Issues (Primitive Obsession / Semantic Duplication),1.0
+23,Error Handling Issues,1.0
+23,Architectural / Structural Issues,2.0
+23,Side Effects / Improper Hook Usage,1.0
+23,Separation of Concerns Violations (Cross-cutting),1.0
+16,Bloater (Large Class),1.0
+16,Change preventer (God Module),2.0
+16,Coupler (Mixing UI and Business Logic),1.0
+16,Bloater: In-Memory Aggregation,1.0
+16,Bloater (Long Method),1.0
+16,Bloater (Long Method),1.0
+16,Dead Code,1.0
+16,Missing Error Handling Strategy,1.0
+16,Duplicate Code,1.0
+16,Inappropriate Intimacy (Environmental Coupling),1.0
+1,Duplicate Code / Duplicated Logic,5.0
+1,Low Cohesion / Mixed Responsibilities,2.0
+1,Dead Code / Dead Data / Unused Logic,3.0
+1,Primitive Obsession / Magic Strings,1.0
+1,Long Component / Large Component,1.0
+1,Shotgun Surgery Risk,2.0
+1,Missing Error Handling / Validation,2.0
+1,Error Handling Issues (Swallowed Exception),1.0
+1,Performance Smell (Sequential Async),1.0
+1,Inconsistent Logic,1.0
+1,Poor Separation of Concerns (Layer Violation),1.0
+20,Duplicated Logic / DRY Violation,6.0
+20,Missing Error Handling,3.0
+20,Large Component / Low Cohesion,2.0
+20,Magic Strings / Primitive Obsession,2.0
+20,Inline Styles (Maintainability),1.0
+20,Deeply Nested JSX,1.0
+20,Redundant Data Fetching,1.0
+20,Dead Code / Unused Code,1.0
+20,Performance Smell (Sequential async / inefficiency),1.0
+20,Security Smell (SQL interpolation),1.0
+4,Missing error handling,4.0
+4,"Duplicated logic (countWords, algorithms)",2.0
+4,Magic numbers / duplicated constants,2.0
+4,Inline styles (maintainability issue),2.0
+4,Large component / SRP violation,2.0
+4,Mixing UI & data fetching logic,2.0
+4,Redundant data fetching,1.0
+4,Deeply nested JSX,1.0
+4,Hardcoded static data (guidelines),1.0
+4,Lack of user feedback (UX issue),1.0
+4,No loading state,1.0
+4,Duplicate type definitions,1.0
+4,Magic strings,1.0
+4,Inconsistent dependency usage,1.0
+4,Misleading naming / dead code,1.0
+4,Weak authentication validation,1.0
+4,Duplicated configuration (cookies),1.0
+4,Poor UX (confirm dialog),1.0
+4,Unnecessary client component,1.0
+3,Large Class,1.0
+3,Duplicated Code (UI form blocks),1.0
+3,Primitive Obsession,1.0
+3,Dead / Unreachable Code,2.0
+3,Duplicated Logic (validation rules),2.0
+3,Duplicated Error Handling Structure,1.0
+3,Redundant Data Fetching / Unnecessary Query,1.0
+10,Security Risk: User Enumeration,1.0
+10,Logic / UI Coupling (Data Transformation in View),1.0
+10,Leaky Abstraction (Vendor Lock-In - raw SQL literal),1.0
+10,Magic Strings (Duplicated Domain Knowledge),1.0
+10,Route Clutter (Inline Validation Logic),1.0
+10,Traceability Failure (Missing Requirement Mapping),1.0
+10,Security Risk: Info Leakage from Error Handling,1.0
+10,Operational Risk: Dangerous DB Sync (sequelize.sync alter),1.0
+10,Security Risk: Hardcoded Default Credentials,1.0
+11,Missing ObjectID validation & weak input-size checks,1.0
+11,Inconsistent validation (title vs aiModel),1.0
+11,Missing field length limits (Primitive Obsession / DoS risk),1.0
+11,Hard-coded fallback secret,1.0
+11,Ambiguous header handling & flow control,1.0
+11,Deeply Nested JSX / Overly Complex Component,1.0
+11,Mixing UI and Business Logic,1.0
+11,Dead Code & SPA Routing Anti-pattern,1.0
+11,Duplicated Logic (Copy-Paste Programming),1.0
+11,Large Class / God Component & Shotgun Surgery Risk,1.0
+11,Duplicated Code & Hardcoded Configuration,1.0
+11,Duplicated Logic (Routing Guards) & Unsafe Object Access,1.0
+11,Anemic Domain Model & Redundant Comments,1.0
+11,Information Leakage & Copy-Paste Error,1.0
+11,Too much whitespace,4.0
+11,Not needed / excessive comments,2.0

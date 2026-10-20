@@ -1,0 +1,236 @@
+Source_File,Test_ID,Requirement_ID,Req_Scenario,Result
+R01,T1_US1,US1,We will try to make- and save a simple AI usage log,Pass
+R01,T1_US2,US2,Attempt to not input a used AI tool,Pass
+R01,T2_US2,US2,See if the correct AI tool is displayed after saving the entry,Pass
+R01,T1_US3,US3,See if correct usage category is displayed after saving entry,Pass
+R01,T2_US3,US3,See if any optional explanations are properly saved,Pass
+R01,T1_US10,US10,Modify an existing AI usage log's details,Pass
+R01,T1_US11,US11,"Verify the Dashboard correctly filters usage by Course. Pre-preparation: Before starting this task, I edited some of the previous logs to include courses. I gave T2-US3 the course TDT3410 and T2-US2 TDT424.",Pass
+R01,T1_US12,US12,Export AI Declaration as a downloadable file,Pass
+R01,T1_NFR1,NFR1,"Verify that a standard AI usage log can be completed in under 30 seconds or within a minimal number of clicks (e.g., < 5 clicks).",Pass
+R01,T1_NFR3,NFR3,Verify the presence of transparency features or privacy disclosures within the UI.,Pass
+R02,1,REQ-01,Verify default landing page is the dashboard 1. Run the website. 2. Open http://localhost:3000. The user is taken to the dashboard by default. As expected,Pass
+R02,2,REQ-01,Verify conversations are categorized into Academic and Private 1. Open the dashboard. 2. Inspect the sidebar conversation area. The sidebar shows separate Academic and Private conversation categories. As expected,Pass
+R02,3,REQ-01,Verify a conversation opens as a discussion window 1. Open an existing conversation from the sidebar. The selected conversation opens in a chat/discussion- style interface. As expected,Pass
+R02,4,REQ-01,Verify academic conversations are grouped by course and arranged chronologically 1. Reload the dashboard. 2. Review academic conversation groups and ordering. Academic conversations are grouped by course and ordered by most recent activity. As expected,Pass
+R02,03,REQ-04,"Verify that brainstorming mode logs the user prompt and generated idea, and that the log is accessible via a button in the conversation interface 1. Open a conversation. 2. Enable brainstorming mode. 3. Enter a prompt and send it. 4. Check whether the generated idea is logged. 5. Verify that the brainstorming log can be accessed again. When brainstorming mode is enabled, the system logs both the user prompt and the generated idea, and the log is accessible through a button in the conversation interface. As expected",Pass
+R02,04,REQ-22,"Verify that every AI response includes an easily accessible ""Report Bias"" option for flagging discriminatory content 1. Open a conversation containing AI responses. 2. Move the mouse over an AI response. 3. Click the Report Bias button. 4. Click ""Confirm Report"" to submit the report. The user can access the Report Bias option on an AI response and successfully submit a bias report after confirmation. As expected",Pass
+R02,05,REQ-29,"Verify that the system warns the user when personal contact details are entered in a message 1. Open a conversation. 2. Type a name, address, phone number, and email address into the message input field in separate tests. 3. Attempt to send each message. The system warns the user or blocks the message when personal contact details are detected. No warning was shown for a name or address. A warning was shown for format like test@test.com and +4712345678, and the user had to confirm before sending. Partial 3.3-system-test-execution.md 2026-03-24 4 / 4 Test ID Requirement ID Test Scenario Input/Steps Expected Result Actual Result Pass/Fail Evidence TC- 06 REQ-30 Verify that the system provides a contextual consent pop- up when uploading academic records 1. Open a conversation. 2. Click the general upload button. 3. Select a file representing an academic record, such as a transcript. 4. Observe the system response before upload. The system provides a contextual consent pop-up specifically related to uploading academic records, allowing the user to explicitly grant permission for that functionality. The interface only provided a general document upload button, no dedicated notification was observed.",Fail
+R02,07,REQ-36,Verify that the application allows students to submit feedback and satisfaction ratings directly within the system 1. Open the feedback window. 2. Select a rating. 3. Enter written feedback. 4. Submit the form. The application provides an in- app interface for submitting satisfaction ratings and written feedback. As expected,Pass
+R03,ST1,R1,Student logs AI usage 1. Log in as student 2. Open dashboard 3. Select a course and assignment 4. Open AI logging page 5. Submit an AI usage entry The system stores the AI usage entry for the selected assignment and the student can see that logging has been recorded.,N/A
+R03,ST2,R2,"Student logs AI tool and purpose 1. Log in as student 2. Open AI logging for an assignment 3. Select/check an AI tool 4. Enter/select purpose of use 5. Save log Saved log contains both which AI tool was used and the purpose of use, making the entry traceable.",N/A
+R03,ST3,R4,Student logs uses checkboxes with optional text field 1. Log in as student 2. Open AI logging form 3. Select one or more checkboxes 4. Leave optional text field empty 5. Save 6. Repeat with optional text field filled in The form allows submission using checkboxes; optional text fields are not required but can be filled and stored when provided.,N/A
+R03,ST4,R7,Student dashboard shows overview of courses and assignments 1. Log in as student with multiple courses/assignments assigned 2. Observe dashboard landing page Dashboard displays a clear overview of the student’s courses and related assignments.,N/A
+R03,ST5,R11,"AI logging is accessible and clearly visible from dashboard 1. Log in as student 2. Observe dashboard/home page immediately after login 3. Check whether logging access/button/link is visible 4. Click it AI logging access is clearly visible on the dashboard after login, and the student can navigate to logging in one step or with minimal clicks.",N/A
+R03,ST6,R20,Student submits an AI declaration for an assignment 1. Log in as student 2. Open a specific assignment 3. Complete any required AI log(s) 4. Click Submit AI Declaration (or equivalent) 5. Confirm submission The declaration is successfully submitted for that assignment and the system shows a confirmation/status indicating it is formally recorded.,N/A
+R03,ST7,R21,Instructor creates assignment connected to a course 1. Log in as instructor 2. Navigate to course management / assignment creation 3. Select a course 4. Create a new assignment with title/details 5. Save A new assignment is created and linked to the selected course. It becomes visible in the course context and (if applicable) on student dashboards.,N/A
+R03,ST8,R23,"Instructor selects if or not student logs are anonymous per assignment 1. Log in as instructor 2. Create or edit an assignment 3. Set AI log visibility mode to Anonymous 4. Save 5. Reopen and verify 6. Repeat with Identifiable mode The instructor can configure the assignment so student AI logs are either anonymous or identifiable, and the selected mode is saved correctly.",N/A
+R03,ST9,R3,"Student can complete logging quickly and efficiently 1. Log in as student 2. Start timer when opening AI logging form 3. Complete a standard logging entry using default checkboxes and optional text left empty A standard logging entry can be completed quickly (e.g., within 30 seconds under normal conditions) with minimal manual input and no unnecessary steps.",N/A
+R03,ST10,R24,Authentication protects student data from other students 1. Log in as student A and note visible assignments/logs 2. Log out 3. Log in as student B 4. Attempt to access student A’s dashboard/logs via UI or direct URL if possible Student B cannot view or access student A’s private data. Authentication and authorization restrict access to the logged-in user’s own data only.,N/A
+R03,ST11,R25,Student clearly sees whether logs are anonymous or visible to instructor 1. Log in as student 2. Open assignment A configured as anonymous 3. Open AI logging page 4. Observe visibility notice 5. Repeat for assignment B configured as identifiable The UI clearly informs the student whether the AI log for the current assignment is anonymous or visible to instructors before or during logging.,N/A
+R04,ST-01,FR1,Institutional guidance display,Pass
+R04,ST-02,FR2,Examples of AI use,Pass
+R04,ST-03,FR3,Availability of AI declaration,Pass
+R04,ST-04,FR4,Category- based documentatio n,Pass
+R04,ST-05,FR5,Non-punitive feedback,Pass
+R04,ST-06,FR7,Aggregated dashboards,Pass
+R04,ST-07,FR8,Privacy and data control,Pass
+R04,ST-08,NFR1,Limited data storage,Pass
+R04,ST-09,NFR2,Role-based access,Pass
+R04,ST-10,NFR4,Usability and efficiency,Pass
+R04,ST-11,NFR6,Transparency of data use,Pass
+R05,ST-01,RE-09,Student logs AI usage using quick-input checkboxes,Pass
+R05,ST-02,RE-10,Student links a log entry to a specific assignment or course activity,Pass
+R05,ST-03,RE-11,Student declares tools used and the nature of AI assist- ance at submission,Fail
+R05,ST-04,RE-12,Student views own usage history,Pass
+R05,ST-05,RE-13,"Administrator verifies Low, Medium, and High risk clas- sification",Pass
+R05,ST-06,RE-14,Administrator verifies auto- matic discrepancy detection,Pass
+R05,ST-07,RE-15,Risk classification is per- formed at assignment sub- mission,Pass
+R05,ST-08,RE-16,High Risk classification trig- gers advisor alert,Pass
+R05,ST-09,NFR-01,Time required to log AI us- age is under 2 seconds,Pass
+R05,ST-10,NFR-02,Response time to student message is under 30 seconds,Fail
+R06,ST-01,FR-01,Verify that a user can register in the application.,Pass
+R06,ST-02,FR-01,Verify that a user can log in with valid credentials.,Pass
+R06,ST-03,FR-02,Verify that a student can create AI interaction logs.,Pass
+R06,ST-04,FR-03,Verify that a student can edit AI interaction logs.,Pass
+R06,ST-05,FR-04,Verify that a student can delete AI interaction logs.,Pass
+R06,ST-06,FR-05,Verify that a student can create an AI declaration related to an assignment.,Pass
+R06,ST-07,FR-06,Verify that a professor can view AI declarations.,Pass
+R06,ST-08,FR-06,Verify that a teaching assistant can view AI declarations.,Pass
+R06,ST-09,FR-07,Verify that a professor can give a feedback for an AI declaration.,Pass
+R06,ST-10,FR-07,Verify that a teaching assistant can give a feedback for an AI declaration.,Pass
+R06,ST-11,FR-24,Verify that a professor can create a course.,Pass
+R06,ST-12,FR-24,Verify that a professor can create an assignment for a course.,Pass
+R06,ST-13,FR-24,Verify that a professor can delete a course.,Pass
+R06,ST-14,FR-24,Verify that a professor can enroll students in a course.,Pass
+R06,ST-15,FR-24,Verify that a professor can remove a student from a course.,Pass
+R06,ST-16,FR-27,Verify that a student can create an AI log to an assignment.,Pass
+R06,ST-17,FR-27,Verify that a student can edit an existing AI log and link it to an assignment.,Fail
+R06,ST-18,NFR-04,Verify that a student can navigate to any target page without interruptions.,Pass
+R06,ST-19,NFR-05,Verify that a student can use the system during a study session without significantly increasing workload.,Pass
+R07,1,FR-2,Student manually registers an AI usage entry through the manual logging form and links it to a specific assignment.,Fail
+R07,2,FR-3,Student creates an AI usage declaration and verifies that it is shown under the selected assignment.,Pass
+R07,3,FR-4,Student registers an AI usage entry with a disallowed activity and checks whether the system raises a non-compliance flag with rule reference.,Fail
+R07,4,FR-6,Student logs a disallowed AI activity and verifies that the system automatically opens a disputing declaration and stores it as an AI declaration.,Pass
+R07,5,FR-8,"Student opens the dashboard to review previous AI logs, usage categories, and compliance flags.",Fail
+R07,6,FR-9,Administrator checks whether the system supports creation and management of versioned institutional AI policies and whether assignments can be linked to a policy version.,Fail
+R07,7,NFR-1,Student uses the system in a normal workflow to verify whether logging and declaration features are seamlessly integrated without noticeable delay or extra effort.,Fail
+R07,8,NFR-2,"Verify whether the system protects stored and transmitted AI usage data through secure transport, access control, and privacy-related safeguards.",Pass
+R08,ST01,R2,Register new user in the system,Pass
+R08,ST02,R1,Login existing user,Pass
+R08,ST03,R3,Log AI usage,Pass
+R08,ST04,R5,Investigate AI usage,Pass
+R08,ST05,R7,Investigate institutional guidelines and regulations,Pass
+R08,ST06,R10,Edit user information,Pass
+R09,SYS-1,FR-1 (Req 1),Verify that a user can successfully create an account and log in using a valid student email domain.,Pass
+R09,SYS-2,FR-2 (Req 2),"Verify that a user can successfully sign in with their registered student email and password, and is redirected to their personal dashboard.",Pass
+R09,SYS-3,FR-3,"Verify that a user can request a password reset, receive an email with a valid link, and successfully update their password to regain access.",Fail
+R09,SYS-4,FR-4,Verify that a logged-in user can view their historical AI usage and that it updates accordingly when new usage is added.,Pass
+R09,SYS-5,FR-5,"Verify that a logged-in student can view a usage breakdown by AI tool category (LLM, image generation, code assistant), and usage context.",Pass
+R09,SYS-6,FR-6,"Verify that a logged-in student can filter their dashboard data by course, task type and time period.",Pass
+R09,SYS-7,NFR-01,Verify that I can confirm consent regarding collection of usage logs,Pass
+R10,T-01,FR-01,Create a new AI usage project linked to an assignment/course,Pass
+R10,T-02,FR-01,Verify project displays its linked assignment/course context,Pass
+R10,T-03,FR-02,Log a new AI interaction within a project with all required fields,Pass
+R10,T-04,FR-02,Verify multiple log entries within the same project display correctly,Pass
+R10,T-05,FR-03,Add a personal reflection note to an AI usage log entry,Pass
+R10,T-06,FR-03,Verify reflection note persists after navigating away and returning,Pass
+R10,T-07,FR-04,Submit an AI declaration and verify it is marked as submitted,Pass
+R10,T-08,FR-04,Verify that a submitted declaration is immutable (cannot be edited or deleted),Pass
+R10,T-09,FR-06,Verify preset usage categories are available when declaring AI use,Pass
+R10,T-10,FR-06,Select a preset category and verify it is stored correctly,Pass
+R10,T-11,FR-07,Verify extent-of-use options are available when declaring AI use,Pass
+R10,T-12,FR-07,Select an extent level and verify it is stored and displayed correctly,Pass
+R10,T-13,FR-10,Verify the personal dashboard displays AI usage statistics,Pass
+R10,T-14,FR-10,Verify dashboard statistics update after new log entries are added,Pass
+R10,T-15,NFR-04,Complete a manual AI declaration within 30 seconds,Pass
+R10,T-16,NFR-06,First-time user can complete core tasks without documentation,Pass
+R10,T-17,NFR-06,Verify UI elements have clear labels and logical layout,Pass
+R10,T-18,NFR-07,Core features function correctly on a desktop browser,Pass
+R10,T-19,NFR-07,Core features function correctly on a mobile device,Pass
+R11,T01,FR01,"Student submits assignment with manual AI logs 1. Open StudentAssignmentSubmission page 2. Select assignment 3. Add AI tool name, context, and result 4. Enter AI declaration 5. Submit assignment Submission succeeds; manual AI log is saved, instructor view shows the manual AI log for that student Submission succeeds, manual AI log is saved, instructor view shows the manual AI log for that student",Pass
+R11,T02,FR02,"Student confirms automatic AI logs during submission 1. Open StudentAssignmentSubmission page 2. Select assignment 3. Enter AI declaration 4. Submit to open review modal 5. Confirm automatic AI logs 6. Complete submission Submission succeeds, confirmed automatic logs are attached, instructor view shows confirmed automatic logs Submission succeeds, confirmed automatic logs are attached, instructor view shows confirmed automatic logs",Pass
+R11,T03,FR03,"Student reviews and deselects some automatic logs before submit 1. Open StudentAssignmentSubmission page 2. Select assignment 3. Enter AI declaration 4. Submit to open review modal 5. Uncheck one automatic log 6. Confirm and submit Submission succeeds, only checked automatic logs are recorded, instructor view reflects correct confirmed log set Submission succeeds, but all automatic logs are recorded despite one being unchecked, visible also in instructor view",Fail
+R11,T04,FR04,Student must provide an AI declaration 1. Open StudentAssignmentSubmission page 2. Select assignment 3. Leave declaration blank 4. Attempt to submit Submission blocked with validation error; no submission saved until declaration is entered Submission blocked with validation error; no submission saved until declaration is entered,Pass
+R11,T05,FR05,"Instructor creates assignment with extra AI requirements 1. Open CreateAssignment page 2. Enter title, course ID, description 3. Enable extra AI log requirement and add text 4. Enable extra AI declaration requirement and add text 5. Submit Assignment created; appears in InstructorDash board; extra AI requirements are displayed on assignment card Assignment created; appears in InstructorDash board; extra AI requirements are displayed on assignment card",Pass
+R11,T06,FR06,"Instructor views student submission logs 1. Open InstructorDashboard page 2. Select assignment with submissions 3. Click View Logs 4. Open a student record Instructor sees student submission, AI declaration, manual logs, and confirmed automatic logs Instructor sees student submission, AI declaration, manual logs, and confirmed automatic logs",Pass
+R11,T07,FR07,End-to-end assignment-specific AI log workflow 1. Instructor creates assignment requiring AI logs/declaration 2. Student submits assignment with manual logs and declaration 3. Instructor opens dashboard and views submission logs Full workflow from assignment creation to submission review is supported end to end Full workflow from assignment creation to submission review is supported end to end,Pass
+R11,T08,FR08,Institutional regulation handling missing flow 1. Review app for regulation workflow 2. Attempt to find regulation handling in UI Feature not present; cannot complete regulatory workflow Feature not implemented,Fail
+R11,T09,FR09,Regulation scoping feature missing 1. Review UI for policy/regulation scoping 2. Attempt to locate regulation scope controls No regulation scoping UI exists Feature not implemented,Fail
+R11,T10,FR10,Ethical guidelines display missing 1. Review app for ethical guideline display 2. Attempt to locate dedicated ethics/rules section No ethical guideline or institutional rules display exists Feature not implemented,Fail
+R11,T11,FR11,Compliance feedback section missing 1. Review submission and instructor pages for compliance feedback 2. Attempt to identify manual/automatic compliance feedback UI No compliance feedback mechanism is present Feature not implemented,Fail
+R11,T12,FR12,Compliance notification feature missing 1. Review app for compliance notification behavior 2. Attempt to trigger compliance notification No compliance notification feature exists Feature not implemented,Fail
+R11,T13,FR13,Helpdesk assistance workflow missing 1. Search app UI for helpdesk or assistance support 2. Attempt to locate helpdesk interaction flow No helpdesk assistance workflow is implemented Feature not implemented,Fail
+R11,T14,FR14,Mandatory/optional course metadata missing 1. Review assignment creation fields 2. Attempt to find mandatory/optional course setting No mandatory/opt ional course option exists; only course ID is captured Feature not implemented,Fail
+R11,T15,FR15,Peer review workflow missing 1. Review UI for peer review or reviewer authority flow 2. Attempt to access peer review features No peer review workflow is available Feature not implemented,Fail
+R11,T16,FR16,Institutional app integration missing 1. Review app for external integration points 2. Attempt to identify other institutional application integration No external institutional integration is present Feature not implemented,Fail
+R11,T17,FR17,External application integration examples missing 1. Review UI for integration examples or settings 2. Attempt to find external app integration documentation No integration examples or UI exist Feature not implemented,Fail
+R12,1,US1,A student who has registered AI usage views statistics and compliance status in the dashboard. 1. Log in as a student. 2. Register AI usage. 3. Go to the dashboard. There are statistics and compliance status which reflect the registered AI usage. There are statistics and compliance status which reflect the registered AI usage.,Pass
+R12,2,US2,A student who has registered AI usage looks at the usage trend graph. 1. Log in as a student. 2. Register AI usage. 3. Go to the dashboard. The graphs in the dashboard show AI usage over time. The graphs in the dashboard show AI usage over time.,Pass
+R12,3,US3,A student think some categories are missing from the AI usage form and wants to give this feedback 1. Log in as a student. 2. Go to the feedback page. 3. Fill out the form. 4. Submit The feedback is successfully submitted. The feedback is successfully submitted.,Pass
+R12,4,US4,"As an administrator, I want to update and manage AI ethics policies so that compliance can be evaluated and students can learn responsible AI use. 1. Log in as a admin. 2. Go to the admin panel. 3. Press on the “change” button for AI ethics polices 4. Press on the policies wanting to The Policy is successfully changed based on what was edited The Policy i successfully changed based on what was edited",Pass
+R12,5,US5,As a User i want to login such that i have access to my own AI usage statistics 1. Log in as a student. 2. Look at usage history. I can see my own history of AI usage I can see my own history of AI usage,Pass
+R12,6,US6,"As a user, I want the application to provide insights about my AI usage so that I can reflect on and adjust my behavior. 1. Log in 2. Use the application 3. Go to innsigts 4. Look at the insights given I can see personalized insights that may help my AI usage behavior I can see personalized insights that may help my AI usage behavior",Pass
+R12,7,US7,"As a user, I want the application to be easy to use so that I can quickly and efficiently complete common tasks. 1. Register AI usage 2. View dashboard 3. Submit feedback The user can finish the tasks within 1 minute The user can finish the tasks within 1 minute",Pass
+R12,8,US8,"As an instructor, I want the application to comply with GDPR requirements so that it can be safely used in educational courses. 1. Attempt to: -View stored personal data -Delete or modify data 2. Verify that no unnecessary personal data is stored I as a user can view, edit and delete personal data and nothing of my personal data is unnecessarily stored. I as a user can view, edit and delete personal data and nothing of my personal data is unnecessarily stored.",Pass
+R13,Test-01,"FR-S1, FR-S6, FR-S8, FR-S9.","Registering a new user, and logging into the system, which is needed to be able to log AI usage or view graphs etc.",Fail
+R13,Test-02,FR-S1,"On a logged in account, try to create an AI log linked to an assignment.",Pass
+R13,Test-03,FR-S1,"While in a logged in account, we want to “log my AI interactions per assignment”. This means as a logged in student, you should have assignments to choose from.",Fail
+R13,Test-04,FR-S6,"On a logged in account, check the AI logging form for fields providing the information: assignment details, AI tools used, time spent and nature of assistance.",Pass
+R13,Test-05,FR-S6,"Try to create an AI log, with an absurdly long time spent (absurdly long is here defined as longer than a semester since the assignments can’t last longer than a semester)",Fail
+R13,Test-06,FR-S8,Try to create an AI log and check that explanations are recorded differently than content generation,Pass
+R13,Test-07,FR-S8,"The requirement specifies that AI usage log for explanations or conceptual understanding should be separate from content generation. This implies that in the two fields (usage purpose and nature), there should not be a possibility to put both at once.",Fail
+R13,Test-08,FR-S9,When logged into an account I want to be able to see graphs showing my AI usage,Pass
+R13,Test-09,FR-S9,Check the graphs for understandability so they can be used to reflect on study habits regarding AI.,Fail
+R13,Test-10,NFR-P2,Check for the ability to use institutional SSO to log in,Fail
+R13,Test-11,NFR-A1,"Check if the webpage is fully functional at 200 %, so people with visual impairments can use the webpage.",Pass
+R13,Test-12,NFR-A1,"Check if the pictures on the webpage have alt text, this is a part of WCAG 2.1.",Fail
+R14,ST-01,R1,Successfully log a valid AI interaction.,Pass
+R14,ST-02,R2,View NTNU guidelines on the dashboard.,Pass
+R14,ST-03,R4,Verify compliance status on a valid prompt.,Pass
+R14,ST-05,R7,Add or update a reflection on an existing log.,Pass
+R14,ST-06,R8,Auto-generate the AI declaration.,Pass
+R14,ST-07,R28,"Within a prompt log, check the visual distinctness of the reflection area.",Pass
+R14,ST-08,R29,Verify security limits prevent overly large inputs (data bloating/DoS protection).,Pass
+R15,FR1.1,FR1,Assignment Creation,Pass
+R15,FR1.2,FR1,Assignment Updating,Pass
+R15,FR3.1,FR3,Multiple AI usage entries per assignment.,Pass
+R15,FR4.1,FR4,AI Usage Entry Attachment,Pass
+R15,FR5.1,FR5,AI Usage Entry Renaming,Fail
+R15,FR6.1,FR6,Course Creation,Pass
+R15,FR6.2,FR6,Course Updating,Pass
+R15,NFR1.1,NFR1,Intuitive labels,Pass
+R15,NFR1.2,NFR1,Simple submissions,Pass
+R15,NFR2.1,NFR2,Loading time,Pass
+R16,T01,FR1,Verify the ability of professors to give guidance on logs,Fail
+R16,T02,FR2,Verify a student user can create logs,Pass
+R16,T03,FR6,Verify,Pass
+R16,T04,FR11,Verify presence of student guidance,Pass
+R16,T05,FR16,Verify configuration with NTNU SSO service,Fail
+R16,T06,FR17,Verify data retention between logins,Pass
+R16,T07,NFR1,Verify ease of use,Pass
+R16,T08,NFR1,Verify ease of navigation,Fail
+R16,T09,NFR2,Verify site stability,Pass
+R17,ST01,FR4,Manual log entry,Pass
+R17,ST02,FR5,Required log contents,Pass
+R17,ST03,FR8,Personalised dashboard,Pass
+R17,ST04,FR9,Usage graph,Pass
+R17,ST05,FR11,Ethical guidelines,Pass
+R17,ST06,FR13,Dashboard feedback,Pass
+R17,ST07,FR40,Login,Pass
+R17,ST08,FR10,Graph filtering,Pass
+R17,ST09,FR12,Resources and quiz,Pass
+R17,ST10,FR25,Explicit con- sent,Pass
+R17,ST11,FR38,NTNU email registration,Pass
+R17,ST12,FR42,Inactivity logout,Pass
+R17,ST13,FR43,User categories and access levels,Fail
+R17,ST14,NFR6,Consistent UI across pages,Pass
+R17,ST15,NFR7,Visual hier- archy,Pass
+R17,ST16,NFR8,Consistent placement,Pass
+R18,ST01,FR01,Student manually logs AI usage during submission,Pass
+R18,ST02,FR01,Student creates multiple AI logs,Pass
+R18,ST03,FR01,AI logs only allowed during submission,Pass
+R18,ST04,FR02,Automatic logs include prompts and responses,Pass
+R18,ST05,FR03,Review automatic logs at submission,Pass
+R18,ST06,FR03,Student cannot edit automatic logs,Pass
+R18,ST07,FR03,Logs included if and only if confirmed,Fail
+R18,ST08,FR04,Student creates AI declaration,Pass
+R18,ST09,FR04,Declaration must be acknowledged,Pass
+R18,ST10,FR05,Instructor creates assignment,Fail
+R18,ST11,FR05,Instructor configures AI requirements,Fail
+R18,ST12,FR06,Instructor views student logs,Pass
+R18,ST13,FR06,Instructor views declarations,Pass
+R18,ST14,NFR 03,Application initial load performance,Pass
+R18,ST15,NFR 03,Submission latency,Pass
+R18,ST16,NFR 04,Ease of use (new user),Pass
+R18,ST17,NFR 04,Core functionality usability,Pass
+R19,TC01,FR-01,Viewing AI guidelines,Pass
+R19,TC02,"FR-03, NFR-02",Logging AI us- age,Pass
+R19,TC03,FR-11,Viewing all assignments in the dashboard,Pass
+R19,TC04,FR-15,Providing feed- back,Pass
+R19,TC05,"FR-27, NFR-04",Check the DB for roles. Not used for anything yet so can only verify their existence.,Pass
+R19,TC06,FR-28,Sign in as a stu- dent,Pass
+R20,1,FR-1.1,Assignment declaration,Pass
+R20,2,FR-1.3,AI usage categorization,Pass
+R20,3,FR-2.1,Compliance confirmation check during declaration,Pass
+R20,4,FR-2.2,Declaration editing,Pass
+R20,5,FR-3.1,Usage overview dashboard data break- down,Pass
+R20,6,FR-3.2,Compliance status display,Pass
+R20,7,FR-3.3,Comparing with anonymized peer stu- dent data,Fail
+R20,8,NFR-1,Time to complete first log entry,Pass
+R20,9,NFR-2,Routine usage logging with pre-filled templates,Fail
+R21,T1,FR3,Filling out at submitting AI usage form,Fail
+R21,T3,FR5,Selecting an AI tool from a list of AI tools,Pass
+R21,T5,FR6,Declaring an AI tool which is not present in the list of AI tools,Pass
+R21,T6,FR8,Uploading an image to the form,Pass
+R21,T7,NFR3,Check that the system can store one or more AI usage records,Fail
+R21,T8,NFR5,Data is stored in database,Fail
+R22,1,FR1,Student selects an assignment and records AI Usage,Pass
+R22,2,FR2,Form enforces mandatory field validation,Pass
+R22,3,FR3,Create assignment-l evel AI declaration,Pass
+R22,4,FR4,Classify AI use by one of six categories,Pass
+R22,5,FR6,"Indicate contribution using of of four selectable options: 0–25%, 26–50%, 51–75%, 76–100%",Pass
+R22,6,FR20,Edit logs within configurable deadline,Pass
+R22,7,NFR1,Log entry completion in 2-3 minutes (normal usage),Pass
+R22,8,NFR1,Declaration completion in 1-2 minutes (normal usage),Pass
+R22,9,NFR7,Application supports Norwegian and English language,Pass

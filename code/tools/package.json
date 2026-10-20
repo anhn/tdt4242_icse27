@@ -1,0 +1,13 @@
+{
+  "name": "tdt4242-static-analysis",
+  "private": true,
+  "description": "Node tools used by code/rq3 (run `npm install` in this folder)",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "eslint": "8.57.0",
+    "eslint-plugin-sonarjs": "0.25.1",
+    "jscpd": "4.0.5",
+    "typescript": "5.5.4"
+  }
+}
